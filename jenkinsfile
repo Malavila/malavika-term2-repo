@@ -4,7 +4,7 @@ pipeline {
      stages {
         stage('SCM checkout') {
         git
-        "
+        "https://github.com/Malavila/malavika-term2-repo.git"
         
         }
         stages {
